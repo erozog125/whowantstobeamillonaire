@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Who Wants to Be a Millonaire?</h1>
+  <hr>
+  <main>
+    <div class="container-question">
+      <h2>1.El reglamento del aprendiz se adopta como parte del acuerdo</h2>
+    </div>
+    <div class="answers">
+      <button>a. 009</button>
+      <button>b. Entre el subdirector y los instructores</button>
+      <button>c. 007</button>
+      <button>d. Entre la comunidad educativa</button>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/ff/Milonario_El_Salvador.jpg');    
+  }
+
+  h1{
+    color: #db4e0c;
+    text-shadow: 0 0 10px #fff;
+  }
+
+  main {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-question {
+    width: 95%;
+    height: 3rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 25px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  .answers {
+    width: 95%;
+    height: 30rem;
+    border-radius: 10px;
+    background-color: #070118;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .answers > button {
+    width: 45%;
+    height: 40%;
+    border-radius: 30px;
+    margin: 0.2rem;
+    background-color: #01053f;
+    color: #fff;
+  }
+
+  .answers > button:hover,
+  .answers > button:focus {
+    font-weight: 900;
+    background-color: #0d5cf0;
+    cursor: pointer;
+  }
+</style>
+</html>
